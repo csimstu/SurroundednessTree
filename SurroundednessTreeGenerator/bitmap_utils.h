@@ -13,7 +13,7 @@ using namespace std;
 typedef vector<vector<int>> grid_t;
 
 grid_t read_bitmap(const char *filename, FIBITMAP **dib_result) {
-	FIBITMAP *dib = FreeImage_Load(FIF_PNG, filename, PNG_DEFAULT);
+	FIBITMAP *dib = FreeImage_Load(FIF_JPEG, filename, JPEG_DEFAULT);
 	assert(dib);
 	unsigned width = FreeImage_GetWidth(dib);
 	unsigned height = FreeImage_GetHeight(dib);
@@ -27,7 +27,8 @@ grid_t read_bitmap(const char *filename, FIBITMAP **dib_result) {
 		for (unsigned y = 0; y < height; y++) {
 			BYTE *pixel = (BYTE*)bits;
 			for (unsigned x = 0; x < width; x++) {
-				result[y][x] = (pixel[FI_RGBA_RED] == 255 ? 0 : 1);
+				result[y][x] = (pixel[FI_RGBA_RED] + pixel[FI_RGBA_BLUE] + pixel[FI_RGBA_GREEN] >= 450 ? 0 : 1);
+				pixel[FI_RGBA_RED] = pixel[FI_RGBA_BLUE] = pixel[FI_RGBA_GREEN] = result[y][x] == 0 ? 255 : 0;
 				pixel += 3;
 			}
 			// next line

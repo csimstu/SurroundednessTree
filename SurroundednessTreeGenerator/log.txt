@@ -1,56 +1,121 @@
-0(0) with area 6831, center of gravity (46.485727,49.913336),enclosed by (0,0) -- (101,101)
- 239(1) 216(1) 162(1) 237(1) 217(1) 226(1) 1(1) 8(1) 94(1)
-239(1) with area 1, center of gravity (87.000000,98.000000),enclosed by (87,98) -- (87,98)
-216(1) with area 59, center of gravity (75.796610,91.067797),enclosed by (66,85) -- (86,96)
- 219(0)
-219(0) with area 6, center of gravity (69.500000,92.500000),enclosed by (68,92) -- (71,93)
-162(1) with area 500, center of gravity (37.576000,81.766000),enclosed by (17,65) -- (67,97)
- 166(0)
-166(0) with area 16, center of gravity (24.625000,79.875000),enclosed by (22,78) -- (27,81)
-237(1) with area 9, center of gravity (91.777778,95.333333),enclosed by (91,93) -- (93,97)
-217(1) with area 5, center of gravity (24.600000,92.600000),enclosed by (23,92) -- (26,93)
-226(1) with area 5, center of gravity (87.800000,94.800000),enclosed by (87,93) -- (88,96)
-1(1) with area 384, center of gravity (86.062500,23.500000),enclosed by (76,4) -- (95,43)
- 10(0)
-10(0) with area 104, center of gravity (86.153846,23.500000),enclosed by (81,17) -- (90,30)
-8(1) with area 1543, center of gravity (49.372651,45.294880),enclosed by (24,16) -- (78,78)
- 20(0) 30(0) 36(0) 44(0) 45(0) 47(0) 78(0) 90(0) 95(0) 96(0)
-20(0) with area 8, center of gravity (50.750000,23.375000),enclosed by (49,22) -- (52,24)
-30(0) with area 28, center of gravity (34.214286,31.071429),enclosed by (31,27) -- (39,36)
-36(0) with area 172, center of gravity (59.563953,39.511628),enclosed by (53,29) -- (67,48)
-44(0) with area 1, center of gravity (42.000000,32.000000),enclosed by (42,32) -- (42,32)
-45(0) with area 43, center of gravity (48.000000,37.627907),enclosed by (46,32) -- (50,43)
-47(0) with area 70, center of gravity (38.228571,41.057143),enclosed by (33,33) -- (42,46)
-78(0) with area 34, center of gravity (65.558824,51.588235),enclosed by (61,45) -- (72,57)
-90(0) with area 1, center of gravity (34.000000,50.000000),enclosed by (34,50) -- (34,50)
-95(0) with area 10, center of gravity (37.300000,52.300000),enclosed by (35,51) -- (39,54)
-96(0) with area 168, center of gravity (49.892857,59.416667),enclosed by (43,51) -- (56,69)
-94(1) with area 354, center of gravity (90.423729,70.008475),enclosed by (83,50) -- (97,90)
- 129(0)
-129(0) with area 52, center of gravity (90.442308,69.903846),enclosed by (88,64) -- (92,76)
+0(0) with area 50173, center of gravity (168.138620,152.423654),enclosed by (0,0) -- (350,268)
+ 235(1) 257(1) 218(1) 215(1) 219(1) 220(1) 202(1) 253(1) 254(1) 259(1) 340(1) 299(1) 504(1) 511(1) 494(1) 471(1) 474(1) 436(1) 439(1) 440(1) 393(1) 167(1) 176(1) 541(1) 531(1) 589(1) 636(1) 721(1) 745(1) 799(1) 771(1) 773(1) 900(1) 56(1) 96(1) 50(1) 40(1) 54(1) 42(1) 629(1) 86(1) 57(1) 182(1) 1451(1)
+259(1) with area 38, center of gravity (169.789474,14.868421),enclosed by (164,13) -- (174,17)
+ 328(0) 327(0)
+494(1) with area 26, center of gravity (64.961538,28.269231),enclosed by (61,25) -- (69,32)
+ 527(0) 570(0)
+436(1) with area 11, center of gravity (25.818182,25.636364),enclosed by (25,22) -- (27,28)
+56(1) with area 98, center of gravity (337.969388,11.673469),enclosed by (335,2) -- (341,25)
+ 200(0) 337(0) 277(0) 117(0)
+54(1) with area 11, center of gravity (311.636364,2.909091),enclosed by (309,2) -- (314,4)
+1451(1) with area 26500, center of gravity (179.308906,105.648113),enclosed by (4,1) -- (335,267)
+ 633(0) 212(0) 385(0) 266(0) 246(0) 225(0) 195(0) 238(0) 210(0) 243(0) 233(0) 191(0) 198(0) 201(0) 209(0) 524(0) 223(0) 205(0) 206(0) 217(0) 199(0) 228(0) 234(0) 244(0) 252(0) 250(0) 251(0) 247(0) 294(0) 296(0) 307(0) 754(0) 313(0) 334(0) 338(0) 315(0) 312(0) 298(0) 376(0) 333(0) 330(0) 314(0) 308(0) 342(0) 1744(0) 339(0) 349(0) 501(0) 355(0) 379(0) 347(0) 303(0) 316(0) 356(0) 361(0) 367(0) 368(0) 359(0) 505(0) 384(0) 358(0) 360(0) 620(0) 431(0) 453(0) 405(0) 428(0) 410(0) 468(0) 435(0) 460(0) 429(0) 759(0) 425(0) 512(0) 520(0) 427(0) 484(0) 488(0) 446(0) 758(0) 619(0) 485(0) 495(0) 493(0) 433(0) 444(0) 426(0) 418(0) 515(0) 388(0) 403(0) 416(0) 390(0) 391(0) 417(0) 152(0) 269(0) 153(0) 157(0) 161(0) 270(0) 164(0) 149(0) 274(0) 891(0) 159(0) 278(0) 170(0) 268(0) 150(0) 1006(0) 552(0) 579(0) 564(0) 587(0) 565(0) 542(0) 528(0) 529(0) 578(0) 559(0) 575(0) 582(0) 572(0) 568(0) 584(0) 585(0) 535(0) 586(0) 742(0) 886(0) 890(0) 612(0) 737(0) 732(0) 608(0) 591(0) 597(0) 604(0) 736(0) 699(0) 650(0) 683(0) 692(0) 725(0) 726(0) 869(0) 703(0) 689(0) 672(0) 660(0) 656(0) 663(0) 670(0) 675(0) 682(0) 693(0) 662(0) 686(0) 690(0) 691(0) 661(0) 695(0) 752(0) 873(0) 679(0) 687(0) 747(0) 714(0) 727(0) 715(0) 881(0) 719(0) 804(0) 790(0) 827(0) 848(0) 845(0) 852(0) 814(0) 858(0) 803(0) 860(0) 867(0) 981(0) 849(0) 831(0) 843(0) 850(0) 868(0) 792(0) 832(0) 808(0) 844(0) 847(0) 982(0) 815(0) 989(0) 985(0) 840(0) 776(0) 765(0) 991(0) 766(0) 802(0) 781(0) 856(0) 917(0) 940(0) 949(0) 950(0) 1203(0) 906(0) 931(0) 953(0) 971(0) 956(0) 963(0) 1200(0) 904(0) 1201(0) 934(0) 932(0) 944(0) 921(0) 895(0) 1482(0) 919(0) 941(0) 946(0) 901(0) 918(0) 977(0) 980(0) 975(0) 973(0) 974(0) 972(0) 91(0) 61(0) 283(0) 76(0) 81(0) 288(0) 127(0) 94(0) 114(0) 65(0) 134(0) 68(0) 98(0) 119(0) 104(0) 105(0) 279(0) 63(0) 102(0) 64(0) 72(0) 75(0) 58(0) 120(0) 178(0) 123(0) 141(0) 115(0) 177(0) 139(0) 125(0) 1719(0) 1676(0) 1710(0) 1670(0) 1657(0) 1685(0) 1718(0) 1666(0) 1653(0) 1658(0) 1677(0) 1730(0) 1672(0) 1679(0) 1673(0) 1694(0) 1542(0) 1573(0) 1519(0) 1603(0) 1635(0) 1563(0) 1579(0) 1586(0) 1596(0) 1510(0) 1528(0) 1569(0) 1591(0) 1580(0) 1553(0) 1590(0) 1548(0) 1547(0) 1564(0) 1592(0) 1568(0) 1529(0) 1582(0) 1533(0) 1539(0) 1597(0) 1646(0) 1647(0) 1604(0) 1649(0) 1610(0) 1624(0) 1638(0) 1617(0) 1611(0) 1627(0) 1643(0) 1615(0) 1655(0) 1636(0) 1648(0) 1639(0) 1842(0) 1958(0) 1898(0) 1825(0) 1913(0) 1900(0) 1960(0) 1773(0) 1919(0) 1906(0) 1833(0) 1762(0) 1830(0) 1929(0) 1888(0) 1804(0) 1784(0) 1930(0) 1887(0) 1902(0) 1885(0) 1897(0) 1796(0) 1760(0) 1802(0) 2020(0) 2027(0) 2051(0) 2061(0) 2064(0) 2013(0) 2030(0) 2018(0) 2032(0) 2042(0) 1966(0) 2006(0) 1153(0) 1746(0) 1137(0) 1177(0) 1492(0) 1158(0) 1135(0) 1189(0) 1118(0) 1150(0) 1481(0) 1169(0) 1121(0) 1170(0) 1191(0) 1168(0) 1192(0) 1188(0) 1490(0) 1134(0) 1149(0) 1038(0) 1040(0) 1047(0) 1085(0) 1056(0) 1058(0) 1037(0) 1068(0) 1041(0) 1018(0) 1023(0) 1044(0) 1096(0) 1016(0) 1017(0) 1035(0) 1025(0) 1172(0) 1061(0) 1063(0) 1049(0) 1011(0) 1021(0) 1034(0) 1162(0) 1106(0) 1065(0) 1086(0) 1067(0) 1130(0) 1111(0) 1066(0) 1092(0) 1089(0) 1112(0) 1080(0) 1087(0) 1239(0) 1240(0) 1228(0) 1231(0) 1246(0) 1214(0) 1250(0) 1208(0) 1227(0) 1236(0) 1235(0) 1733(0) 1237(0) 1244(0) 1229(0) 1374(0) 1368(0) 1221(0) 1259(0) 1262(0) 1457(0) 1241(0) 1264(0) 1238(0) 1266(0) 1258(0) 1260(0) 1215(0) 1281(0) 1291(0) 1327(0) 1300(0) 1309(0) 1381(0) 1471(0) 1272(0) 1298(0) 1354(0) 1326(0) 1387(0) 1310(0) 1270(0) 1470(0) 1320(0) 1324(0) 1288(0) 1328(0) 1351(0) 1280(0) 1301(0) 1313(0) 1279(0) 1408(0) 1409(0) 1424(0) 1450(0) 1731(0) 1422(0) 1402(0) 1405(0) 1429(0) 1416(0) 1413(0) 1454(0) 1421(0) 1425(0) 1415(0) 1438(0) 1430(0) 1440(0)
+246(0) with area 18, center of gravity (266.277778,13.611111),enclosed by (263,12) -- (269,15)
+225(0) with area 37, center of gravity (233.621622,12.513514),enclosed by (226,11) -- (238,15)
+243(0) with area 17, center of gravity (206.470588,12.823529),enclosed by (203,11) -- (210,15)
+198(0) with area 50, center of gravity (296.280000,13.260000),enclosed by (292,9) -- (299,18)
+ 273(1)
+206(0) with area 28, center of gravity (197.321429,14.571429),enclosed by (196,10) -- (199,19)
+ 329(1)
+361(0) with area 20, center of gravity (265.050000,19.150000),enclosed by (263,17) -- (267,21)
+ 383(1)
+359(0) with area 18, center of gravity (233.777778,18.111111),enclosed by (231,17) -- (237,20)
+460(0) with area 196, center of gravity (172.744898,32.387755),enclosed by (160,23) -- (185,46)
+ 580(1) 615(1)
+615(1) with area 11, center of gravity (172.727273,33.545455),enclosed by (170,31) -- (175,37)
+ 645(0) 666(0)
+425(0) with area 89, center of gravity (140.640449,26.685393),enclosed by (133,21) -- (148,32)
+ 555(1)
+520(0) with area 226, center of gravity (249.119469,23.362832),enclosed by (244,9) -- (256,45)
+ 621(1) 447(1) 539(1) 816(1)
+446(0) with area 79, center of gravity (218.607595,28.556962),enclosed by (213,21) -- (222,36)
+ 561(1)
+758(0) with area 16, center of gravity (178.875000,38.625000),enclosed by (176,37) -- (182,41)
+433(0) with area 208, center of gravity (278.923077,36.129808),enclosed by (272,21) -- (284,48)
+ 563(1) 673(1)
+153(0) with area 119, center of gravity (281.310924,14.294118),enclosed by (273,7) -- (287,21)
+ 172(1)
+149(0) with area 109, center of gravity (218.348624,13.862385),enclosed by (212,5) -- (224,20)
+742(0) with area 32, center of gravity (325.156250,36.062500),enclosed by (322,31) -- (328,41)
+890(0) with area 14, center of gravity (221.714286,44.642857),enclosed by (218,42) -- (225,47)
+726(0) with area 51, center of gravity (113.372549,39.823529),enclosed by (107,36) -- (119,44)
+703(0) with area 135, center of gravity (132.659259,40.274074),enclosed by (122,35) -- (141,46)
+675(0) with area 118, center of gravity (309.881356,39.915254),enclosed by (303,33) -- (316,46)
+845(0) with area 18, center of gravity (235.277778,41.555556),enclosed by (233,40) -- (237,44)
+847(0) with area 27, center of gravity (263.074074,42.629630),enclosed by (261,40) -- (266,47)
+ 945(1)
+766(0) with area 12, center of gravity (223.500000,39.083333),enclosed by (221,37) -- (226,41)
+931(0) with area 199, center of gravity (118.688442,62.894472),enclosed by (115,44) -- (123,82)
+ 1206(1) 1319(1) 1361(1)
+1206(1) with area 13, center of gravity (118.692308,57.615385),enclosed by (117,55) -- (121,60)
+1361(1) with area 12, center of gravity (119.083333,67.083333),enclosed by (118,64) -- (120,70)
+934(0) with area 72, center of gravity (151.138889,41.472222),enclosed by (144,37) -- (158,47)
+895(0) with area 46, center of gravity (294.630435,41.434783),enclosed by (292,37) -- (301,46)
+1482(0) with area 27, center of gravity (249.629630,81.370370),enclosed by (245,78) -- (253,84)
+974(0) with area 14, center of gravity (236.714286,46.357143),enclosed by (234,45) -- (239,49)
+81(0) with area 29, center of gravity (324.965517,7.862069),enclosed by (320,3) -- (327,13)
+63(0) with area 27, center of gravity (54.444444,5.000000),enclosed by (50,3) -- (58,8)
+123(0) with area 164, center of gravity (144.426829,13.658537),enclosed by (135,6) -- (153,21)
+1519(0) with area 22, center of gravity (117.045455,87.909091),enclosed by (115,83) -- (118,92)
+1591(0) with area 16, center of gravity (128.187500,100.187500),enclosed by (126,98) -- (130,103)
+1958(0) with area 4365, center of gravity (189.358763,213.688431),enclosed by (140,186) -- (239,244)
+ 1976(1) 2000(1) 1982(1)
+1976(1) with area 77, center of gravity (163.012987,198.649351),enclosed by (152,196) -- (174,202)
+ 1978(0) 1983(0)
+1825(0) with area 561, center of gravity (221.360071,172.452763),enclosed by (204,163) -- (240,184)
+ 1856(1)
+1833(0) with area 605, center of gravity (168.636364,174.193388),enclosed by (150,165) -- (187,185)
+ 1899(1)
+1804(0) with area 258, center of gravity (129.143411,175.310078),enclosed by (124,156) -- (133,194)
+1784(0) with area 4112, center of gravity (188.488570,141.412938),enclosed by (137,99) -- (241,180)
+ 1664(1) 1717(1) 1727(1) 1714(1) 1686(1) 1668(1) 1669(1) 1688(1) 1735(1) 1728(1) 1683(1) 1641(1) 1778(1) 1750(1) 1777(1)
+1717(1) with area 21, center of gravity (190.285714,137.142857),enclosed by (186,135) -- (194,139)
+ 1737(0)
+1688(1) with area 79, center of gravity (171.607595,133.063291),enclosed by (159,130) -- (192,138)
+ 1715(0)
+1777(1) with area 49, center of gravity (198.734694,146.367347),enclosed by (184,143) -- (211,149)
+1897(0) with area 28, center of gravity (136.714286,188.214286),enclosed by (134,183) -- (139,193)
+1492(0) with area 34, center of gravity (103.147059,82.411765),enclosed by (97,80) -- (107,85)
+1085(0) with area 71, center of gravity (257.901408,50.535211),enclosed by (252,45) -- (264,56)
+ 1151(1) 1109(1)
+1056(0) with area 14, center of gravity (224.214286,49.000000),enclosed by (221,47) -- (227,51)
+1023(0) with area 31, center of gravity (131.225806,51.451613),enclosed by (128,47) -- (134,55)
+1063(0) with area 24, center of gravity (38.583333,52.041667),enclosed by (35,49) -- (44,54)
+1049(0) with area 55, center of gravity (156.618182,53.181818),enclosed by (149,48) -- (164,59)
+1065(0) with area 50, center of gravity (55.700000,50.480000),enclosed by (50,48) -- (62,53)
+ 1090(1)
+1092(0) with area 61, center of gravity (91.885246,53.262295),enclosed by (86,50) -- (98,57)
+ 1160(1)
+1112(0) with area 60, center of gravity (275.383333,55.433333),enclosed by (270,50) -- (281,59)
+ 1217(1) 1267(1)
+1087(0) with area 29, center of gravity (305.655172,51.896552),enclosed by (301,49) -- (311,55)
+1264(0) with area 59, center of gravity (249.694915,60.610169),enclosed by (245,57) -- (256,65)
+1300(0) with area 174, center of gravity (95.896552,64.137931),enclosed by (79,59) -- (113,69)
+ 1348(1)
+1298(0) with area 59, center of gravity (70.491525,62.474576),enclosed by (62,60) -- (81,66)
+ 1330(1)
+1288(0) with area 33, center of gravity (148.090909,62.878788),enclosed by (145,59) -- (152,67)
+1328(0) with area 17, center of gravity (284.470588,62.294118),enclosed by (281,61) -- (289,64)
+1351(0) with area 3189, center of gravity (186.249608,66.995296),enclosed by (136,27) -- (232,104)
+ 761(1) 764(1) 647(1) 710(1) 711(1) 813(1) 812(1) 999(1) 1003(1) 1004(1) 911(1) 910(1) 912(1) 967(1) 968(1) 1508(1) 969(1) 1551(1) 1525(1) 1524(1) 1587(1) 1557(1) 1545(1) 1571(1) 1602(1) 1126(1) 1165(1) 1127(1) 1183(1) 1182(1) 1185(1) 1184(1) 1146(1) 1186(1) 1123(1) 1145(1) 1029(1) 1027(1) 1125(1) 1053(1) 1054(1) 1077(1) 1102(1) 1101(1) 1100(1) 1078(1) 1234(1) 1256(1) 1255(1) 1390(1) 1307(1) 1365(1) 1448(1)
+710(1) with area 10, center of gravity (197.200000,37.100000),enclosed by (195,35) -- (199,38)
+1078(1) with area 11, center of gravity (216.454545,50.636364),enclosed by (213,49) -- (219,52)
+1454(0) with area 20, center of gravity (236.050000,78.550000),enclosed by (235,74) -- (238,82)
+1421(0) with area 15, center of gravity (86.266667,71.466667),enclosed by (84,70) -- (88,73)
+1440(0) with area 78, center of gravity (133.923077,78.525641),enclosed by (123,72) -- (144,84)
+ 1502(1)
 \definecolor{tmpcolor0}{RGB}{169,163,190}
-\definecolor{tmpcolor1}{RGB}{132,225,236}
-\definecolor{tmpcolor2}{RGB}{214,174,210}
-\definecolor{tmpcolor3}{RGB}{144,201,241}
-\definecolor{tmpcolor4}{RGB}{241,187,233}
-\definecolor{tmpcolor5}{RGB}{235,179,166}
 \definecolor{tmpcolor6}{RGB}{219,188,135}
-\definecolor{tmpcolor7}{RGB}{140,190,153}
-\definecolor{tmpcolor8}{RGB}{164,222,141}
-\definecolor{tmpcolor9}{RGB}{156,134,183}
-\definecolor{tmpcolor10}{RGB}{199,222,179}
-\definecolor{tmpcolor11}{RGB}{146,205,200}
-\definecolor{tmpcolor12}{RGB}{195,187,139}
-\definecolor{tmpcolor13}{RGB}{166,159,131}
-\definecolor{tmpcolor14}{RGB}{218,253,137}
-\definecolor{tmpcolor15}{RGB}{184,165,159}
-\definecolor{tmpcolor16}{RGB}{221,212,203}
 \definecolor{tmpcolor17}{RGB}{252,150,245}
-\definecolor{tmpcolor18}{RGB}{197,187,147}
-\definecolor{tmpcolor19}{RGB}{141,137,138}
 \definecolor{tmpcolor20}{RGB}{156,219,174}
-\definecolor{tmpcolor21}{RGB}{178,160,154}
-\definecolor{tmpcolor22}{RGB}{208,238,192}
-\definecolor{tmpcolor23}{RGB}{248,182,253}
+\definecolor{tmpcolor43}{RGB}{148,214,254}
+\definecolor{tmpcolor44}{RGB}{173,220,142}
+\definecolor{tmpcolor45}{RGB}{230,131,239}
+\definecolor{tmpcolor46}{RGB}{215,201,225}
+\definecolor{tmpcolor47}{RGB}{255,233,143}
+\definecolor{tmpcolor48}{RGB}{225,205,209}
+\definecolor{tmpcolor50}{RGB}{150,242,242}
+\definecolor{tmpcolor51}{RGB}{230,157,240}
+\definecolor{tmpcolor68}{RGB}{248,129,135}
 
-\node [arn_r,tmpcolor0] {} child{node [arn_r,tmpcolor1] {}}  child{node [arn_r,tmpcolor2] {} child{node [arn_r,tmpcolor3] {}} }  child{node [arn_r,tmpcolor4] {} child{node [arn_r,tmpcolor5] {}} }  child{node [arn_r,tmpcolor6] {}}  child{node [arn_r,tmpcolor7] {}}  child{node [arn_r,tmpcolor8] {}}  child{node [arn_r,tmpcolor9] {} child{node [arn_r,tmpcolor10] {}} }  child{node [arn_r,tmpcolor11] {} child{node [arn_r,tmpcolor12] {}}  child{node [arn_r,tmpcolor13] {}}  child{node [arn_r,tmpcolor14] {}}  child{node [arn_r,tmpcolor15] {}}  child{node [arn_r,tmpcolor16] {}}  child{node [arn_r,tmpcolor17] {}}  child{node [arn_r,tmpcolor18] {}}  child{node [arn_r,tmpcolor19] {}}  child{node [arn_r,tmpcolor20] {}}  child{node [arn_r,tmpcolor21] {}} }  child{node [arn_r,tmpcolor22] {} child{node [arn_r,tmpcolor23] {}} } ;
+\node [arn_r,tmpcolor0, scale=1.15039] {} child{node [arn_r,tmpcolor6, scale=1.01251, pattern=north east lines] {} child{node [arn_r,tmpcolor17, scale=0.390455] {}}  child{node [arn_r,tmpcolor20, scale=0.384028] {}}  child{node [arn_r,tmpcolor43, scale=0.705906] {} child{node [arn_r,tmpcolor44, scale=0.31481, pattern=north east lines] {}} }  child{node [arn_r,tmpcolor45, scale=0.46832] {}}  child{node [arn_r,tmpcolor46, scale=0.475446] {}}  child{node [arn_r,tmpcolor47, scale=0.400935] {}}  child{node [arn_r,tmpcolor48, scale=0.697526] {} child{node [arn_r,tmpcolor50, scale=0.316428, pattern=north east lines] {}}  child{node [arn_r,tmpcolor51, scale=0.2876, pattern=north east lines] {}} }  child{node [arn_r,tmpcolor68, scale=0.66295] {}} } ;

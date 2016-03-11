@@ -2,7 +2,7 @@
 #include "SurroundednessTreeGenerator.h"
 #include "FreeImage.h"
 
-const string IMG_FILE = "penis.png";
+const string IMG_FILE = "seth.jpg";
 
 void draw_rectangle(FIBITMAP *dib, int min_x, int min_y, int max_x, int max_y, Color color) {
 	RGBQUAD quad;
@@ -19,7 +19,6 @@ void draw_rectangle(FIBITMAP *dib, int min_x, int min_y, int max_x, int max_y, C
 		FreeImage_SetPixelColor(dib, x, min_y, &quad);
 		FreeImage_SetPixelColor(dib, x, max_y, &quad);
 	}
-	//FreeImage_SetPixelColor(dib, 78, 70, &quad);
 }
 
 
@@ -38,7 +37,7 @@ int main() {
 	ofstream flog("log.txt");
 	vector<RenderInfo> renderInfo;
 	stringstream latex_pre, latex_tree;
-	gen.printTree(flog, renderInfo, latex_pre, latex_tree);
+	gen.printTree(flog, renderInfo, latex_pre, latex_tree, n * m);
 	for (auto info : renderInfo) {
 		draw_rectangle(dib, info.min_x, info.min_y, info.max_x, info.max_y, info.color);
 	}

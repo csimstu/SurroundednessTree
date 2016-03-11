@@ -38,7 +38,7 @@ public:
 	void extendAt(int i, int j);
 	void absorb(const comp_ptr &other);
 	bool isAncestorOf(const comp_ptr &other) const;
-	void print(ofstream &fout, vector<RenderInfo> &render_info, stringstream &latex_pre, stringstream &latex_tree) const;
+	void print(ofstream &fout, vector<RenderInfo> &render_info, stringstream &latex_pre, stringstream &latex_tree, int totalArea, int level) const;
 private:
 	int val; // 0: white, 1: black
 	int area;
@@ -53,7 +53,7 @@ class SurroundednessTreeGenerator {
 public:
 	SurroundednessTreeGenerator(int nrow, int ncol);
 	void process(int val);
-	void printTree(ofstream &fout, vector<RenderInfo> &render_info, stringstream &latex_pre, stringstream &latex_tree);
+	void printTree(ofstream &fout, vector<RenderInfo> &render_info, stringstream &latex_pre, stringstream &latex_tree, int totalArea);
 
 private:
 	void merge(const comp_ptr &comp1,

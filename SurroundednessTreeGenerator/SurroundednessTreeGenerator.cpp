@@ -69,17 +69,26 @@ string createNewColorName() {
 	return "tmpcolor" + to_string(id++);
 }
 
+#define AREA_THRESHOLD 520
+
 void ConnectedComponent::print(ofstream &fout, vector<RenderInfo> &render_info,
-	stringstream &latex_pre, stringstream &latex_tree) const {
-	fout << name + " with area " + to_string(area) + ", center of gravity (" + to_string((double)sum_x/area) + "," + to_string((double)sum_y/area) + "),";
+	stringstream &latex_pre, stringstream &latex_tree, int totalArea, int level) const {
+	if (area < 10) return;
+	fout << name + " with area " + to_string(area) + ", center of gravity (" + to_string((double)sum_x / area) + "," + to_string((double)sum_y / area) + "),";
 	fout << "enclosed by ";
 	fout << "(" << min_x << "," << min_y << ") -- (" << max_x << "," << max_y << ")\n";
 
 	Color newColor = Color::randomColor();
 	render_info.emplace_back(newColor, min_x, min_y, max_x, max_y);
 	string color_name = createNewColorName();
-	latex_pre << "\\definecolor{" << color_name << "}{RGB}{" << newColor.r << "," << newColor.g << "," << newColor.b << "}\n";
-	latex_tree << "node [arn_r," << color_name << "] {}";
+	if (area > AREA_THRESHOLD - level * 160) {
+		latex_pre << "\\definecolor{" << color_name << "}{RGB}{" << newColor.r << "," << newColor.g << "," << newColor.b << "}\n";
+		latex_tree << "node [arn_r," << color_name << ", scale=" << 1.5 * pow((float)area / totalArea, 0.2);
+		if (level & 1) {
+			latex_tree << ", pattern=north east lines";
+		}
+		latex_tree << "] {}";
+	}
 
 	if (children.size() == 0) {
 		return;
@@ -89,9 +98,11 @@ void ConnectedComponent::print(ofstream &fout, vector<RenderInfo> &render_info,
 	}
 	fout << "\n";
 	for (auto x : children) {
-		latex_tree << " child{";
-		x->print(fout, render_info, latex_pre, latex_tree);
-		latex_tree << "} ";
+		if (x->area >= 10 && x->area > AREA_THRESHOLD - (level+1) * 160)
+			latex_tree << " child{";
+		x->print(fout, render_info, latex_pre, latex_tree, totalArea, level + 1);
+		if (x->area >= 10 && x->area > AREA_THRESHOLD - (level+1) * 160)
+			latex_tree << "} ";
 	}
 }
 
@@ -163,8 +174,8 @@ void SurroundednessTreeGenerator::mergeInto(const comp_ptr &src,
 			x = des;
 }
 
-void SurroundednessTreeGenerator::printTree(ofstream &fout, vector<RenderInfo> &render_info, stringstream &latex_pre, stringstream &latex_tree) {
+void SurroundednessTreeGenerator::printTree(ofstream &fout, vector<RenderInfo> &render_info, stringstream &latex_pre, stringstream &latex_tree, int totalArea) {
 	latex_tree << "\\";
-	root->print(fout, render_info, latex_pre, latex_tree);
+	root->print(fout, render_info, latex_pre, latex_tree, totalArea, 0);
 	latex_tree << ";";
 }
